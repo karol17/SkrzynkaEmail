@@ -1,0 +1,19 @@
+Klasy:
+	Kontakt:
+		-KontaktID
+		-Imie
+		-Nazwisko
+		-adresEmail
+		-Zdjêcie
+		-List<Wiadomosc>
+	Wiadomoœæ:
+		-WiadomoœæId
+		-Temat
+		-Tresc
+		-DataWys³ania
+		-Kontakt
+
+
+WyslijWiadomosc(Wiadomosc w);
+DodajKontakt(Kontakt k);
+UsunKontak(int id);
