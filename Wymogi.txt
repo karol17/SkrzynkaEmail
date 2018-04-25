@@ -12,8 +12,10 @@ Klasy:
 		-Tresc
 		-DataWys³ania
 		-Kontakt
-
+	ListaKontaktów
+	ListaWiadomoœci
 
 WyslijWiadomosc(Wiadomosc w);
 DodajKontakt(Kontakt k);
 UsunKontak(int id);
+DodajZa³¹cznik(string z);
